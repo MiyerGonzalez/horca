@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">	
+	<title>Ahorcado</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+	<img src="images/vlad.jpg" class="logo">
+	<header class="letrero">
+	<h6>HANGMAN GAME</h6>
+	</header>
+	<div id="div-desaparece" class="botones-home">
+		<a href="#horca">
+			<input class="btn-iniciar" type="submit" value="" id="iniciar-juego" onclick="iniciarJuego()">
+			
+		</a>
+
+	</div>
+	<div id="div-aparece-ahorcado" class="canvas">
+		<canvas id="horca" width="1200" height="860"></canvas>
+
+	<div id="div-bts" class="botones">
+		<input  id="new-game" class="newgame"  type="button" value="New Game" onclick="newGame()">
+			
+		
+		<input class="surrender" type="button" id="surrender" value="Home" onclick="location.reload()">
+	</div>
+		
+	</div>
+<script src ="horca.js"></script>
+<script src="canvas.js"></script>
+</body>
+</html>

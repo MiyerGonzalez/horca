@@ -1,0 +1,191 @@
+body{
+	min-width: 1224px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Nosifer', cursive;
+	background-image: url(images/backuno.jpg);
+	background-size: cover;
+}
+
+.letrero{
+	font-size: 50px;
+	color: red;
+	position: absolute;
+	top: 100px;
+	left: 300px;
+}
+
+.logo{
+	margin-left: 1200px;
+	margin-top: 20px;
+	width: 11%;
+	border-radius: 3em;
+	display: inline-block;
+}
+
+#horca{
+	background-image: url(images/rotten.png);
+	background-size: 1000px 500px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	
+	margin-top: 0px;
+	margin-left: 80px;
+    width: 60vw;
+    height: 60vh;
+    
+    border-radius: 3em;
+	vertical-align: top;
+	padding: 30px 20px;
+
+}
+
+.canvas{
+	margin-right: 150px;
+	display: inline-block;
+}
+
+canvas{}
+
+.btn-iniciar{
+	background-image: url(images/hangman.jpg);
+	background-size: 135px;
+	font-size: 35px;
+	position: absolute;
+	top: 400px;
+	left: 900px;
+	height: 110px;
+	width: 150px;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 6px;
+	border-radius: 100px;
+	cursor: pointer;
+} 
+
+.btn-iniciar:hover{
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 10px 10px 35px 0px rgba(168,176,219,1);
+    -moz-box-shadow: 10px 10px 35px 0px rgba(168,176,219,1);
+    box-shadow: 10px 10px 35px 0px rgba(168,176,219,1);
+}
+
+.subrayado{
+	display: flex;
+
+
+}
+.dibujarlineas{
+
+	border-bottom: solid 4px #0a3871;
+	width: 30px;
+	margin: 10px;
+}
+
+.botones{
+	display: inline-block;
+	margin-left: 60px;
+}
+
+.newgame{
+	width: 0;
+	height: 0;
+	margin-right: 50px;
+	margin-top: 200px;
+	border-radius: 25px;
+	font-size: 20px;
+	background:linear-gradient(#D3D3D3, #215364);
+	cursor: pointer;
+}
+
+.surrender{
+	width: 0;
+	height: 0;
+	border-radius: 25px;
+	font-size: 20px;
+	background:linear-gradient(#D3D3D3, #215364);
+	cursor: pointer;	
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body{
+    min-width: 600px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Nosifer', cursive;
+	background-image: url(images/backuno.jpg);
+	background-size: cover;
+	margin-right: inline-top;
+  }
+
+  .letrero{
+	font-size: 70px;
+	color: red;
+	position: absolute;
+	top: 120px;
+	left: 80px;
+}
+
+  .logo{
+	margin-left: 600px;
+	margin-top: 80px;
+	width: 50%;
+	border-radius: 3em;
+	display: inline-block;
+}
+  .botones-home{
+    top: 16rem;
+    left: 4.2rem;
+  }
+
+  .btn-iniciar{
+  width: 150px;
+  height: 110px;
+  left: 500px;
+  top: 1200px;
+  line-height: 10px;
+  }
+
+  #horca{
+	background-image: url(images/claw.png);
+	background-size: 500px 700px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	
+	margin-top: 0px;
+	margin-left: 120px;
+    width: 150vw;
+    height: 100vh;
+    border-right-width: 50px;
+    border-radius: 3em;
+	vertical-align: top;
+	padding: 30px 20px;
+
+}
+
+  .canvas{
+	margin-right: 150px;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+.botones{
+	display: inline-top;
+	padding-top: 0px;
+	margin-left: 310px;
+	margin-top: 0px;
+}
+
+.newgame{
+	margin-top: 30px;
+}
+
+
+
+
+
+
